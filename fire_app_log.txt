@@ -1,0 +1,338 @@
+2014-09-11 19:52:43 overwrite css/screen.css 
+2014-09-11 19:53:56 identical css/screen.css 
+2014-09-11 19:54:43 identical css/screen.css 
+2014-09-11 20:05:36     error sass/screen.sass (Line 2 of sass/_common.sass: Invalid CSS after "16px": expected expression (e.g. 1px, bold), was ";")
+2014-09-11 20:05:36 overwrite css/screen.css 
+2014-09-11 20:05:43     error sass/screen.sass (Line 2 of sass/_common.sass: Invalid CSS after "16px": expected expression (e.g. 1px, bold), was ";")
+2014-09-11 20:05:43 identical css/screen.css 
+2014-09-11 20:05:47 overwrite css/screen.css 
+2014-09-11 20:06:41     error sass/screen.sass (Line 5 of sass/_common.sass: Invalid property: "width:" (no value).)
+2014-09-11 20:06:41 overwrite css/screen.css 
+2014-09-11 20:07:13 overwrite css/screen.css 
+2014-09-11 20:07:38 overwrite css/screen.css 
+2014-09-11 20:07:50 overwrite css/screen.css 
+2014-09-11 20:07:55 overwrite css/screen.css 
+2014-09-11 20:10:34     error sass/screen.sass (Line 10 of sass/_common.sass: File to import not found or unreadable: header.
+Load paths:
+  C:/projects/fw/sass
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  C:/Users/user/Desktop/vendor/assets/stylesheets
+  C:/Users/user/Desktop/vendor/assets/stylesheets)
+2014-09-11 20:10:34 overwrite css/screen.css 
+2014-09-11 20:10:39 overwrite css/screen.css 
+2014-09-11 20:12:15 overwrite css/screen.css 
+2014-09-11 20:12:35 overwrite css/screen.css 
+2014-09-11 20:12:43 identical css/screen.css 
+2014-09-11 20:20:57 overwrite css/screen.css 
+2014-09-11 20:21:13 overwrite css/screen.css 
+2014-09-11 20:21:36 overwrite css/screen.css 
+2014-09-11 20:21:51 identical css/screen.css 
+2014-09-11 20:22:19 overwrite css/screen.css 
+2014-09-11 20:23:33    remove img/icons-s357dd40844.png
+2014-09-11 20:23:34    create img/icons-s3c65184b45.png
+2014-09-11 20:23:34 overwrite css/screen.css 
+2014-09-11 20:23:53 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:23:54 overwrite css/screen.css 
+2014-09-11 20:24:11 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:24:11 overwrite css/screen.css 
+2014-09-11 20:24:18 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:24:18 overwrite css/screen.css 
+2014-09-11 20:28:28     error sass/screen.sass (Line 14 of sass/_common.sass: File to import not found or unreadable: header.
+Load paths:
+  C:/projects/fw/sass
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  C:/Users/user/Desktop/vendor/assets/stylesheets
+  C:/Users/user/Desktop/vendor/assets/stylesheets)
+2014-09-11 20:28:28 overwrite css/screen.css 
+2014-09-11 20:28:29     error sass/screen.sass (Line 14 of sass/_common.sass: File to import not found or unreadable: header.
+Load paths:
+  C:/projects/fw/sass
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  C:/Users/user/Desktop/vendor/assets/stylesheets
+  C:/Users/user/Desktop/vendor/assets/stylesheets)
+2014-09-11 20:28:29 identical css/screen.css 
+2014-09-11 20:28:30     error sass/screen.sass (Line 14 of sass/_common.sass: File to import not found or unreadable: header.
+Load paths:
+  C:/projects/fw/sass
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/user/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  C:/Users/user/Desktop/vendor/assets/stylesheets
+  C:/Users/user/Desktop/vendor/assets/stylesheets)
+2014-09-11 20:28:30 identical css/screen.css 
+2014-09-11 20:28:39 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:28:39 overwrite css/screen.css 
+2014-09-11 20:28:43 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:28:43 identical css/screen.css 
+2014-09-11 20:28:59 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:28:59 identical css/screen.css 
+2014-09-11 20:29:36 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:29:36 overwrite css/screen.css 
+2014-09-11 20:31:00 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:31:00 overwrite css/screen.css 
+2014-09-11 20:31:55 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:31:55 identical css/screen.css 
+2014-09-11 20:32:21 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:32:21 overwrite css/screen.css 
+2014-09-11 20:33:38 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:33:38 overwrite css/screen.css 
+2014-09-11 20:33:45 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:33:46 overwrite css/screen.css 
+2014-09-11 20:33:50 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:33:50 identical css/screen.css 
+2014-09-11 20:34:05 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:34:05 overwrite css/screen.css 
+2014-09-11 20:34:47 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:34:47 overwrite css/screen.css 
+2014-09-11 20:35:23 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:35:23     error sass/screen.sass (Line 5 of sass/header/_nav.sass: Invalid property: "line-height:" (no value).)
+2014-09-11 20:35:23 overwrite css/screen.css 
+2014-09-11 20:35:24 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:35:24     error sass/screen.sass (Line 5 of sass/header/_nav.sass: Invalid property: "line-height:" (no value).)
+2014-09-11 20:35:24 identical css/screen.css 
+2014-09-11 20:35:28 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:35:28 overwrite css/screen.css 
+2014-09-11 20:35:32 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:35:32 overwrite css/screen.css 
+2014-09-11 20:36:02 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:36:02 overwrite css/screen.css 
+2014-09-11 20:36:40 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:36:40 overwrite css/screen.css 
+2014-09-11 20:36:47 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:36:48 overwrite css/screen.css 
+2014-09-11 20:37:01 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:37:02 overwrite css/screen.css 
+2014-09-11 20:37:17 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:37:17 overwrite css/screen.css 
+2014-09-11 20:37:37 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:37:37 overwrite css/screen.css 
+2014-09-11 20:38:33 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:38:33 overwrite css/screen.css 
+2014-09-11 20:39:21 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:39:22 overwrite css/screen.css 
+2014-09-11 20:39:40 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:39:40 overwrite css/screen.css 
+2014-09-11 20:40:05 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:40:06 overwrite css/screen.css 
+2014-09-11 20:40:12 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:40:12 identical css/screen.css 
+2014-09-11 20:40:18 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:40:18 overwrite css/screen.css 
+2014-09-11 20:40:38 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:40:38 overwrite css/screen.css 
+2014-09-11 20:40:54 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:40:54 overwrite css/screen.css 
+2014-09-11 20:41:11 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:41:12 overwrite css/screen.css 
+2014-09-11 20:41:23 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:41:23 overwrite css/screen.css 
+2014-09-11 20:41:30 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:41:30 overwrite css/screen.css 
+2014-09-11 20:42:01 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:42:01 overwrite css/screen.css 
+2014-09-11 20:42:30 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:42:30 identical css/screen.css 
+2014-09-11 20:42:37 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:42:37 overwrite css/screen.css 
+2014-09-11 20:43:00 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:43:00 overwrite css/screen.css 
+2014-09-11 20:43:15 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:43:15 identical css/screen.css 
+2014-09-11 20:43:20 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:43:20 overwrite css/screen.css 
+2014-09-11 20:43:26 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:43:26 overwrite css/screen.css 
+2014-09-11 20:43:47 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:43:47 identical css/screen.css 
+2014-09-11 20:46:50 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:46:51 identical css/screen.css 
+2014-09-11 20:47:08 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:47:08 overwrite css/screen.css 
+2014-09-11 20:47:15 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:47:15 overwrite css/screen.css 
+2014-09-11 20:47:27 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:47:27 overwrite css/screen.css 
+2014-09-11 20:47:37 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:47:37 overwrite css/screen.css 
+2014-09-11 20:47:45 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:47:45 overwrite css/screen.css 
+2014-09-11 20:51:55 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:51:55 identical css/screen.css 
+2014-09-11 20:52:17 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:52:17 overwrite css/screen.css 
+2014-09-11 20:52:22 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:52:22 identical css/screen.css 
+2014-09-11 20:52:31 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:52:32 overwrite css/screen.css 
+2014-09-11 20:54:21 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:54:21 identical css/screen.css 
+2014-09-11 20:54:37 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:54:37 overwrite css/screen.css 
+2014-09-11 20:55:15 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:55:15 identical css/screen.css 
+2014-09-11 20:55:36 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:55:36 overwrite css/screen.css 
+2014-09-11 20:56:04 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:56:04 overwrite css/screen.css 
+2014-09-11 20:56:20 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:56:20 overwrite css/screen.css 
+2014-09-11 20:56:29 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:56:29 overwrite css/screen.css 
+2014-09-11 20:56:36 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:56:36 overwrite css/screen.css 
+2014-09-11 20:56:43 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:56:43 overwrite css/screen.css 
+2014-09-11 20:56:58 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:56:58 overwrite css/screen.css 
+2014-09-11 20:58:16 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:58:16 overwrite css/screen.css 
+2014-09-11 20:58:36 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:58:37 overwrite css/screen.css 
+2014-09-11 20:58:53 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:58:53 overwrite css/screen.css 
+2014-09-11 20:59:43 unchanged img/icons-s3c65184b45.png
+2014-09-11 20:59:43 identical css/screen.css 
+2014-09-11 21:02:04 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:02:04 identical css/screen.css 
+2014-09-11 21:05:45 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:05:46 identical css/screen.css 
+2014-09-11 21:06:43 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:06:43 overwrite css/screen.css 
+2014-09-11 21:06:49 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:06:49 overwrite css/screen.css 
+2014-09-11 21:07:30 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:07:31 identical css/screen.css 
+2014-09-11 21:07:41 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:07:42 overwrite css/screen.css 
+2014-09-11 21:08:34 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:08:34 overwrite css/screen.css 
+2014-09-11 21:09:14 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:09:14 overwrite css/screen.css 
+2014-09-11 21:11:04 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:11:04 identical css/screen.css 
+2014-09-11 21:12:01 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:12:01 overwrite css/screen.css 
+2014-09-11 21:12:26 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:12:26 overwrite css/screen.css 
+2014-09-11 21:12:43 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:12:44 overwrite css/screen.css 
+2014-09-11 21:13:48 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:13:48 overwrite css/screen.css 
+2014-09-11 21:14:05 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:14:05 overwrite css/screen.css 
+2014-09-11 21:14:14 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:14:14     error sass/screen.sass (Line 49 of sass/header/_nav.sass: Invalid CSS after "left": expected expression (e.g. 1px, bold), was ";")
+2014-09-11 21:14:14 overwrite css/screen.css 
+2014-09-11 21:14:16 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:14:16     error sass/screen.sass (Line 49 of sass/header/_nav.sass: Invalid CSS after "left": expected expression (e.g. 1px, bold), was ";")
+2014-09-11 21:14:16 identical css/screen.css 
+2014-09-11 21:14:23 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:14:23 overwrite css/screen.css 
+2014-09-11 21:14:41 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:14:41 identical css/screen.css 
+2014-09-11 21:14:44 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:14:44 overwrite css/screen.css 
+2014-09-11 21:14:51 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:14:51 overwrite css/screen.css 
+2014-09-11 21:15:32 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:15:32 overwrite css/screen.css 
+2014-09-11 21:15:39 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:15:40 identical css/screen.css 
+2014-09-11 21:16:53 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:16:53 overwrite css/screen.css 
+2014-09-11 21:17:59 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:17:59 overwrite css/screen.css 
+2014-09-11 21:18:33 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:18:33 overwrite css/screen.css 
+2014-09-11 21:18:47 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:18:47 overwrite css/screen.css 
+2014-09-11 21:19:04 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:19:05 overwrite css/screen.css 
+2014-09-11 21:19:48 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:19:48 overwrite css/screen.css 
+2014-09-11 21:20:30 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:20:30 overwrite css/screen.css 
+2014-09-11 21:20:34 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:20:34 identical css/screen.css 
+2014-09-11 21:20:51 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:20:51 identical css/screen.css 
+2014-09-11 21:21:48 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:21:48 overwrite css/screen.css 
+2014-09-11 21:22:00 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:22:01 overwrite css/screen.css 
+2014-09-11 21:22:30 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:22:30 overwrite css/screen.css 
+2014-09-11 21:22:35 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:22:35     error sass/screen.sass (Line 7 of sass/header/_nav.sass: The line was indented 2 levels deeper than the previous line.)
+2014-09-11 21:22:35 overwrite css/screen.css 
+2014-09-11 21:22:36 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:22:36     error sass/screen.sass (Line 7 of sass/header/_nav.sass: The line was indented 2 levels deeper than the previous line.)
+2014-09-11 21:22:36 identical css/screen.css 
+2014-09-11 21:22:42 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:22:42 overwrite css/screen.css 
+2014-09-11 21:25:04 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:25:04     error sass/screen.sass (Line 45 of sass/header/_nav.sass: Invalid property: "left:" (no value).)
+2014-09-11 21:25:04 overwrite css/screen.css 
+2014-09-11 21:25:06 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:25:06     error sass/screen.sass (Line 45 of sass/header/_nav.sass: Invalid property: "left:" (no value).)
+2014-09-11 21:25:06 identical css/screen.css 
+2014-09-11 21:25:25 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:25:25     error sass/screen.sass (Line 45 of sass/header/_nav.sass: Invalid property: "left:" (no value).)
+2014-09-11 21:25:26 identical css/screen.css 
+2014-09-11 21:25:27 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:25:27     error sass/screen.sass (Line 45 of sass/header/_nav.sass: Invalid property: "left:" (no value).)
+2014-09-11 21:25:27 identical css/screen.css 
+2014-09-11 21:25:31 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:25:32 overwrite css/screen.css 
+2014-09-11 21:26:45 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:26:45 identical css/screen.css 
+2014-09-11 21:27:12 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:27:12 identical css/screen.css 
+2014-09-11 21:28:49 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:28:49 overwrite css/screen.css 
+2014-09-11 21:29:09 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:29:09 overwrite css/screen.css 
+2014-09-11 21:31:00    remove .sass-cache/ 
+2014-09-11 21:31:00    remove css/screen.css 
+2014-09-11 21:31:04    create img/icons-s3c65184b45.png
+2014-09-11 21:31:04    create css/screen.css 
+2014-09-11 21:34:58 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:34:59 identical css/screen.css 
+2014-09-11 21:35:23 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:35:23 identical css/screen.css 
+2014-09-11 21:35:32 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:35:32 identical css/screen.css 
+2014-09-11 21:36:25 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:36:25 overwrite css/screen.css 
+2014-09-11 21:37:50 unchanged img/icons-s3c65184b45.png
+2014-09-11 21:37:50 identical css/screen.css 
