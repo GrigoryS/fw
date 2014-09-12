@@ -1,0 +1,62 @@
+.header
+	position: relative
+
+.header__logo
+	position: absolute
+	z-index: 1
+	+s(logo)
+
+	+hidetext
+
+.header__top
+	height: 55px
+
+	background: #2c3f50
+
+	.container
+		position: relative
+
+.header__bottom
+	height: 35px
+
+	background: #fff
+
+@import nav
+
+.search
+	position: absolute
+	right: 0
+	top: 10px
+
+	width: 280px
+	line-height: 35px
+
+	background: #243747
+
+	+border-radius(5px)
+	+box-shadow(#1B2833 0 0 2px 0 inset)
+
+.search__input
+	width: 230px
+	margin-left: 15px
+	margin-top: 8px
+
+	font-size: 14px
+
+	background: #243747
+	color: #ddd
+
+	&::-webkit-input-placeholder
+		color: #667079
+	&:-moz-placeholder
+		color: #667079
+
+.search__submit
+	position: absolute
+	top: 10px
+	right: 10px
+
+	+s(search-icon)
+
+	&:hover
+		+s(search-icon--hover)

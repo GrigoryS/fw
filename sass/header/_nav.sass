@@ -1,0 +1,71 @@
+.nav
+	position: relative
+
+	margin-left: 95px
+	
+	+clr
+.nav__li
+	float: left
+	margin-left: 35px
+
+	line-height: 55px
+	vertical-align: middle
+
+	&:first-child
+		margin-left: 0
+
+.nav__item
+	font-size: 16px
+	text-decoration: none
+
+	color: #fff
+
+	&:hover
+		border-bottom: 2px solid #fff
+
+.nav__li--active
+	padding: 0 10px
+
+	background: #fff
+
+	.nav__item
+		font-weight: bold
+
+		color: #243747
+
+		&:hover
+			border: none
+
+	& + .nav__li
+		margin-left: 15px
+
+
+.subnav
+	position: absolute
+	left: 0
+
+	height: 35px
+
+	+clr
+
+.subnav__li
+	float: left
+	margin-left: 30px
+
+	line-height: 35px
+	vertical-align: middle
+
+	&:first-child
+		margin-left: 0
+
+.subnav__item
+	font-size: 14px
+	text-decoration: none
+
+	color: #979ea4
+
+	&:hover
+		color: #2c3f50
+
+.subnav__item--active
+	color: #2c3f50
