@@ -21,16 +21,15 @@ ul, ol { list-style-type: none; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) { * { -webkit-text-size-adjust: none; } }
 table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
-body { min-width: 1024px; background: #dddddd; font-family: "Open Sans"; font-size: 16px; }
+body { min-width: 1024px; background: url("../img/bg.png"); font-family: "Open Sans"; font-size: 16px; }
 
-.container { width: 1000px; margin: auto; }
+.container { position: relative; width: 1000px; margin: auto; }
 
-.header { position: relative; }
+.header { position: relative; margin-bottom: 55px; }
 
-.header__logo { position: absolute; z-index: 1; background: url('../img/icons-s4670af137d.png') 0 0 no-repeat; width: 70px; height: 102px; font: 0/0 a; text-shadow: none; color: transparent; }
+.header__logo { position: absolute; z-index: 1; background: url('../img/icons-s9ca7145c28.png') 0 0 no-repeat; width: 70px; height: 102px; font: 0/0 a; text-shadow: none; color: transparent; }
 
 .header__top { height: 55px; background: #2c3f50; }
-.header__top .container { position: relative; }
 
 .header__bottom { height: 35px; background: white; }
 
@@ -65,5 +64,57 @@ body { min-width: 1024px; background: #dddddd; font-family: "Open Sans"; font-si
 .search__input::-webkit-input-placeholder { color: #667079; }
 .search__input:-moz-placeholder { color: #667079; }
 
-.search__submit { position: absolute; top: 10px; right: 10px; background: url('../img/icons-s4670af137d.png') 0 -138px no-repeat; width: 16px; height: 16px; }
-.search__submit:hover { background: url('../img/icons-s4670af137d.png') 0 -112px no-repeat; width: 16px; height: 16px; }
+.search__submit { position: absolute; top: 10px; right: 10px; background: url('../img/icons-s9ca7145c28.png') 0 -180px no-repeat; width: 16px; height: 16px; }
+.search__submit:hover { background: url('../img/icons-s9ca7145c28.png') 0 -154px no-repeat; width: 16px; height: 16px; }
+
+.articles { position: absolute; left: 0; width: 587px; }
+
+.article { overflow: hidden; background: white; }
+
+.article__thumb { height: 300px; overflow: hidden; }
+.article__thumb img { min-width: 100%; transition: 0.4s all ease; }
+.article__thumb img:hover { opacity: 0.7; }
+
+.article__meta { padding: 20px; }
+
+.article__link { color: #2c3f50; text-decoration: none; transition: 0.1s all ease; }
+.article__link:hover { color: #507392; }
+
+.aside { position: absolute; right: 0; width: 363px; }
+
+.widget-login { position: relative; height: 68px; background: #2c3f50; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; text-align: center; }
+
+.widget-login__icon { position: absolute; left: 60px; bottom: 19px; background: url('../img/icons-s9ca7145c28.png') 0 -112px no-repeat; width: 24px; height: 32px; }
+
+.widget-login__links { position: absolute; bottom: 24px; left: 110px; color: white; }
+
+.widget-login__link { margin-right: 15px; font-weight: bold; text-decoration: none; color: inherit; }
+.widget-login__link:hover { border-bottom: 2px solid white; }
+
+.widget-login__separator { margin-right: 15px; font-weight: bold; }
+
+.articles { position: absolute; left: 0; width: 587px; }
+
+.article { overflow: hidden; background: white; }
+
+.article__thumb { height: 300px; overflow: hidden; }
+.article__thumb img { min-width: 100%; transition: 0.4s all ease; }
+.article__thumb img:hover { opacity: 0.7; }
+
+.article__meta { padding: 20px; }
+
+.article__link { color: #2c3f50; text-decoration: none; transition: 0.1s all ease; }
+.article__link:hover { color: #507392; }
+
+.aside { position: absolute; right: 0; width: 363px; }
+
+.widget-login { position: relative; height: 68px; background: #2c3f50; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; text-align: center; }
+
+.widget-login__icon { position: absolute; left: 60px; bottom: 19px; background: url('../img/icons-s9ca7145c28.png') 0 -112px no-repeat; width: 24px; height: 32px; }
+
+.widget-login__links { position: absolute; bottom: 24px; left: 110px; color: white; }
+
+.widget-login__link { margin-right: 15px; font-weight: bold; text-decoration: none; color: inherit; }
+.widget-login__link:hover { border-bottom: 2px solid white; }
+
+.widget-login__separator { margin-right: 15px; font-weight: bold; }

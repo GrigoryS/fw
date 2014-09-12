@@ -1,5 +1,6 @@
 .header
 	position: relative
+	margin-bottom: 55px
 
 .header__logo
 	position: absolute
@@ -11,10 +12,7 @@
 .header__top
 	height: 55px
 
-	background: #2c3f50
-
-	.container
-		position: relative
+	background: $main-color
 
 .header__bottom
 	height: 35px
@@ -31,7 +29,7 @@
 	width: 280px
 	line-height: 35px
 
-	background: #243747
+	background: $main-color--dark
 
 	+border-radius(5px)
 	+box-shadow(#1B2833 0 0 2px 0 inset)
@@ -43,7 +41,7 @@
 
 	font-size: 14px
 
-	background: #243747
+	background: $main-color--dark
 	color: #ddd
 
 	&::-webkit-input-placeholder
