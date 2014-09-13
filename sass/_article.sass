@@ -3,6 +3,16 @@
 
 	background: #fff
 
+	.article__link
+		color: $main-color
+
+		text-decoration: none
+
+		transition: 0.1s all ease
+
+		&:hover
+			color: lighten($main-color, 20%)
+
 
 .article__thumb
 	height: 300px
@@ -16,15 +26,14 @@
 		&:hover
 			opacity: 0.7
 
-.article__meta
+.article__preview
 	padding: 20px
-	
-.article__link
-	color: $main-color
 
-	text-decoration: none
+.meta
+	margin-top: 10px
 
-	transition: 0.1s all ease
-
-	&:hover
-		color: lighten($main-color, 20%)
+	font-size: 0.875em
+	.fa
+		color: $main-color_dark
+.meta__section
+	margin-right: 1em

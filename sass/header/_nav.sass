@@ -15,15 +15,14 @@
 		margin-left: 0
 
 .nav__item
-	font-size: 16px
 	text-decoration: none
 
 	color: #fff
-
 	&:hover
-		border-bottom: 2px solid #fff
+		color: lighten($main-color, 50%)
 
 .nav__li--active
+	margin-left: 25px
 	padding: 0 10px
 
 	background: #fff
@@ -31,13 +30,13 @@
 	.nav__item
 		font-weight: bold
 
-		color: $main-color--dark
+		color: $main-color_dark
 
 		&:hover
 			border: none
 
 	& + .nav__li
-		margin-left: 15px
+		margin-left: 25px
 
 
 .subnav
@@ -59,7 +58,7 @@
 		margin-left: 0
 
 .subnav__item
-	font-size: 14px
+	font-size: 0.875em
 	text-decoration: none
 
 	color: #979ea4

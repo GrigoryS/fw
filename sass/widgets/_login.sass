@@ -11,20 +11,22 @@
 
 .widget-login__icon
 	position: absolute
-	left: 60px
+	left: 37px
 	bottom: 19px
 
 	+s(widget-login__icon)
 
 .widget-login__links
 	position: absolute
-	bottom: 24px
-	left: 110px
+	bottom: 22px
+	left: 90px
 	
 	color: #fff
 
+	cursor: default
+
 .widget-login__link
-	margin-right: 15px
+	margin-right: 5px
 
 	font-weight: bold
 	text-decoration: none
@@ -32,9 +34,10 @@
 	color: inherit
 
 	&:hover
-		border-bottom: 2px solid #fff
+		color: lighten($main-color, 50%)
 
 .widget-login__separator
-	margin-right: 15px
+	margin-right: 5px
 
 	font-weight: bold
+

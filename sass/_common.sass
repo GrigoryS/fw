@@ -1,4 +1,4 @@
-@import colors
+@import variables
 
 body
 	min-width: 1024px
@@ -6,8 +6,8 @@ body
 	background: url('../img/bg.png')
 
 	font:
-		family: 'Open Sans'
-		size: 16px
+		family: $base-font-family
+		size: $base-font-size
 
 .container
 	position: relative
@@ -16,5 +16,7 @@ body
 	margin: auto
 
 @import header/header
+
+@import base
 
 @import layout-main
