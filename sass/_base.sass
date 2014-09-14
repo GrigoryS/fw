@@ -116,4 +116,21 @@
 
 	ol
 		list-style-type: decimal
+	
+	// Links
+	a
+		color: $main-color
 
+		text-decoration: none
+
+		background-image: linear-gradient(to bottom,transparent 50%, lighten($main-color, 50%) 50%)
+		background-repeat: repeat-x
+		background-size: 2px 2px
+		background-position: 0 90%
+
+		text-shadow: 1px 0 white, 2px 0 white, -1px 0 white, -2px 0 white
+
+		&:hover
+			background-image: linear-gradient(to bottom,transparent 50%, lighten($main-color, 30%) 50%)
+	h1 a
+		background-position: 0 87%

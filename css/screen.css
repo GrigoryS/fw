@@ -97,6 +97,9 @@ body { min-width: 1024px; background: url("../img/bg.png"); font-family: "Open S
 .content ul ul, .content ol ul { margin: 0.5em 0; padding-left: 1.5em; list-style-type: square; }
 .content ul { list-style-type: disc; }
 .content ol { list-style-type: decimal; }
+.content a { color: #2c3f50; text-decoration: none; background-image: linear-gradient(to bottom, transparent 50%, #aabfd1 50%); background-repeat: repeat-x; background-size: 2px 2px; background-position: 0 90%; text-shadow: 1px 0 white, 2px 0 white, -1px 0 white, -2px 0 white; }
+.content a:hover { background-image: linear-gradient(to bottom, transparent 50%, #698cac 50%); }
+.content h1 a { background-position: 0 87%; }
 
 .articles { position: absolute; left: 0; width: 650px; }
 
