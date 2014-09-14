@@ -1,3 +1,4 @@
+@charset "IBM866";
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
@@ -39,7 +40,7 @@ body { min-width: 1024px; background: url("../img/bg.png"); font-family: "Open S
 .nav__li { float: left; margin-left: 35px; line-height: 55px; vertical-align: middle; }
 .nav__li:first-child { margin-left: 0; }
 
-.nav__item { text-decoration: none; color: white; }
+.nav__item { font-size: 15px; text-decoration: none; color: white; }
 .nav__item:hover { color: #aabfd1; }
 
 .nav__li--active { margin-left: 25px; padding: 0 10px; background: white; }
@@ -75,11 +76,15 @@ body { min-width: 1024px; background: url("../img/bg.png"); font-family: "Open S
 .content h5 { font-size: 1em; }
 .content h6 { font-size: 0.8em; }
 .content p { margin: 0.8em 0; line-height: 1.4; }
-.content .image { margin: 0.5em 0; text-align: center; }
+.content .image { margin: 2em 0; text-align: center; }
+.content .float-l { float: left; }
+.content .float-l.image { margin: 0 1em 0.25em 0; }
+.content .float-r { float: right; }
+.content .float-r.image { margin: 0 0 0.5em 1em; }
 .content figure { display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; padding: 0.5em; border: 1px solid #cccccc; }
 .content figcaption { margin-top: 0.5em; text-align: center; }
 .content img { display: block; max-width: 100%; margin: auto; }
-.content hr { height: 1px; margin: 1em 0; border: 0; background: #2c3f50; }
+.content hr { height: 1px; margin: 1em 0; border: 0; background: #cccccc; }
 .content table { margin: 1em 0; border: 1px solid #cccccc; }
 .content tr, .content td, .content th { border: 1px solid #cccccc; }
 .content td, .content th { padding: 0.5em; }
@@ -87,6 +92,12 @@ body { min-width: 1024px; background: url("../img/bg.png"); font-family: "Open S
 .content thead { border-bottom: 2px solid #cccccc; }
 .content table.horizontal-only { border-left: 0; border-right: 0; border-top: 0; }
 .content table.horizontal-only tr, .content table.horizontal-only td, .content table.horizontal-only th { border-left: 0; border-right: 0; border-top: 0; }
+.content ul, .content ol { margin: 2em 0; padding-left: 3em; }
+.content ul ul, .content ol ul { margin: 0.5em 0; padding-left: 1.5em; list-style-type: square; }
+.content ul { list-style-type: disc; }
+.content ol { list-style-type: decimal; }
+.content blockquote { position: relative; margin: 3em 0; padding-left: 2em; font-size: 1.5em; }
+.content blockquote:before { content: "„"; line-height: 0; position: absolute; top: -0.2em; left: 0; font-size: 3em; color: #cccccc; }
 
 .articles { position: absolute; left: 0; width: 650px; }
 

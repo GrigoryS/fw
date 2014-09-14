@@ -20,10 +20,20 @@
 	p
 		margin: 0.8em 0
 		line-height: 1.4
-	
+
+	// images
 	.image
-		margin: 0.5em 0
+		margin: 2em 0
 		text-align: center
+
+	.float-l
+		float: left
+		&.image
+			margin: 0 1em 0.25em 0
+	.float-r
+		float: right
+		&.image
+			margin: 0 0 0.5em 1em
 
 	figure
 		+inline-block
@@ -47,7 +57,7 @@
 
 		border: 0
 
-		background: $main-color
+		background: $border-color
 	
 	// Tables
 	table
@@ -71,4 +81,34 @@
 			border-left: 0
 			border-right: 0
 			border-top: 0
+
+	// Lists
+	ul, ol
+		margin: 2em 0
+		padding-left: 3em
+		ul
+			margin: 0.5em 0
+			padding-left: 1.5em
+
+			list-style-type: square
+	ul
+		list-style-type: disc
+	ol
+		list-style-type: decimal
+
+	// Blockquote
+	blockquote
+		position: relative
+		margin: 3em 0
+		padding-left: 2em
+		font-size: 1.5em
+		&:before
+			content: '„'
+			line-height: 0
+			position: absolute
+			top: -.2em
+			left: 0
+			font-size: 3em
+			color: $border-color
+
 
