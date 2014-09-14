@@ -7,14 +7,29 @@
 	top: -20px
 	z-index: 1
 	// +s(logo)
-	background: url(../img/logo.svg)
+	background: url(../img/logo1.svg) #243747
+	background-position-y: 10px
 	width: 70px
-	height: 122px
+	height: 110px
 
 	+hidetext
 	transition: 0.2s ease all
+
 	&:hover
 		top: -10px
+
+	&:after
+		content: ''
+		position: absolute
+		bottom: -13px
+
+		width: 0
+		height: 0
+		background: transparent
+		border-style: solid
+		border-width: 13px 35px 0 35px
+		border-color: #243747 transparent transparent transparent
+
 
 .header__top
 	height: 55px
