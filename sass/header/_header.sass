@@ -4,10 +4,17 @@
 
 .header__logo
 	position: absolute
+	top: -20px
 	z-index: 1
-	+s(logo)
+	// +s(logo)
+	background: url(../img/logo.svg)
+	width: 70px
+	height: 122px
 
 	+hidetext
+	transition: 0.2s ease all
+	&:hover
+		top: -10px
 
 .header__top
 	height: 55px

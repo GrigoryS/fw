@@ -1,8 +1,10 @@
 .content
 	h1, h2, h3, h4, h5, h6
-		color: $main-color_dark
-		line-height: 1.4
 		margin: 1rem 0
+
+		line-height: 1.4
+
+		color: $main-color_dark
 
 	h1
 		font-size: 1.6em
@@ -19,30 +21,38 @@
 
 	p
 		margin: 0.8em 0
+
+		font-size: 0.875em
 		line-height: 1.4
 
 	// images
 	.image
 		margin: 2em 0
+
 		text-align: center
 
 	.float-l
 		float: left
+
 		&.image
 			margin: 0 1em 0.25em 0
+
 	.float-r
 		float: right
+
 		&.image
 			margin: 0 0 0.5em 1em
 
 	figure
-		+inline-block
-
 		padding: 0.5em
+
 		border: 1px solid $border-color
+
+		+inline-block
 
 	figcaption
 		margin-top: 0.5em
+
 		text-align: center
 
 	img
@@ -62,21 +72,29 @@
 	// Tables
 	table
 		margin: 1em 0
+
 		border: 1px solid $border-color
+
 	tr, td, th
 		border: 1px solid $border-color
+
 	td, th
 		padding: 0.5em
+
 	thead, tfoot
+		text-align: left
+
 		background: #f1f1f1
 		color: darken($main-color, 10%)
-		text-align: left
+
 	thead
 		border-bottom: 2px solid $border-color
+
 	table.horizontal-only
 		border-left: 0
 		border-right: 0
 		border-top: 0
+
 		tr, td, th
 			border-left: 0
 			border-right: 0
@@ -86,29 +104,16 @@
 	ul, ol
 		margin: 2em 0
 		padding-left: 3em
+
 		ul
 			margin: 0.5em 0
 			padding-left: 1.5em
 
 			list-style-type: square
+
 	ul
 		list-style-type: disc
+
 	ol
 		list-style-type: decimal
-
-	// Blockquote
-	blockquote
-		position: relative
-		margin: 3em 0
-		padding-left: 2em
-		font-size: 1.5em
-		&:before
-			content: '„'
-			line-height: 0
-			position: absolute
-			top: -.2em
-			left: 0
-			font-size: 3em
-			color: $border-color
-
 
