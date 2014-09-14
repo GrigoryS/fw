@@ -27,7 +27,7 @@ body { min-width: 1024px; background: url("../img/bg.png"); font-family: "Open S
 
 .header { position: relative; margin-bottom: 35px; }
 
-.header__logo { position: absolute; top: -20px; z-index: 1; background: url(../img/logo1.svg) #243747; background-position-y: 10px; width: 70px; height: 110px; font: 0/0 a; text-shadow: none; color: transparent; transition: 0.2s ease all; }
+.header__logo { position: absolute; top: -20px; z-index: 1; background: url(../img/logo1.svg) #243747; background-position-y: 10px; width: 70px; height: 110px; font: 0/0 a; text-shadow: none; color: transparent; }
 .header__logo:hover { top: -10px; }
 .header__logo:after { content: ""; position: absolute; bottom: -13px; width: 0; height: 0; background: transparent; border-style: solid; border-width: 13px 35px 0 35px; border-color: #243747 transparent transparent transparent; }
 
