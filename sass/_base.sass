@@ -119,11 +119,11 @@
 	
 	// Links
 	a
-		color: $main-color
+		color: lighten($main-color, 20%)
 
 		text-decoration: none
 
-		background-image: linear-gradient(to bottom,transparent 50%, lighten($main-color, 50%) 50%)
+		background-image: linear-gradient(to bottom,transparent 50%, lighten($main-color, 60%) 50%)
 		background-repeat: repeat-x
 		background-size: 2px 2px
 		background-position: 0 90%
@@ -132,5 +132,30 @@
 
 		&:hover
 			background-image: linear-gradient(to bottom,transparent 50%, lighten($main-color, 30%) 50%)
+			color: $main-color
+
+		&::selection
+			text-shadow: none
+
 	h1 a
 		background-position: 0 87%
+
+
+*::selection
+	background: lighten($main-color, 50%)
+
+// Button styles
+.btn
+	+inline-block
+	padding: 0.5em 0.75em
+	
+	font-size: 1em
+	color: #fff
+	text-decoration: none
+
+	background: $main-color
+	
+	+transition(0.1s ease all)
+
+	&:hover
+		background: lighten($main-color, 20%)

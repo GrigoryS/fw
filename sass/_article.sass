@@ -1,7 +1,10 @@
 .article
+	margin-top: 3em
 	overflow: hidden
 
 	background: #fff
+
+	+border-radius(0 0 5px 5px)
 
 	.article__link
 		color: $main-color
@@ -27,13 +30,50 @@
 			opacity: 0.7
 
 .article__preview
-	padding: 20px
+	padding: 1em
+
+.article__exerpt
+	margin-top: 1em
+
+.article__more
+	margin-top: 1em
+
+.article__footer
+	position: relative
+
+	padding: 1em
+
+	font-size: .9em
+	color: lighten($main-color, 65%)
+
+	background: $main-color
+
+.article__meta--footer
+	position: absolute
+	top: 0.25em
+	left: 1.25em
+
+.article__add
+	position: absolute
+	top: 0.25em
+	right: 1.25em
+
+	color: #fff
+
+	&.is-added
+		color: lighten($main-color, 65%)
 
 .meta
-	margin-top: 10px
+	margin-top: 1em
 
 	font-size: 0.875em
 	.fa
 		color: $main-color_dark
+	a
+		text-decoration: none
+		color: $main-color
+
+		&:hover
+			color: lighten($main-color, 20%)
 .meta__section
 	margin-right: 1em
